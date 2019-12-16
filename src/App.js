@@ -13,18 +13,18 @@ class App extends Component {
       },
       {
         id: 2,
-        title: 'Dinner with wife',
-        completed: false
+        title: 'Dinner with family',
+        completed: true
       },
       {
-        id: 1,
+        id: 3,
         title: 'Meeting with boss',
         completed: false
       }
     ]
   }
  render() {
-   console.log(this.state.todos)
+
    return (
     <div className="App">
       <Todos todos={this.state.todos} />
